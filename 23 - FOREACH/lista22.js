@@ -30,9 +30,9 @@ add.addEventListener("click", function(){
 
 // EXERCÍCIO 3
 
-let box = document.querySelectorAll(".box")
+let boxes = document.querySelectorAll(".box")
 
-box.forEach(function(box){
+boxes.forEach(function(box){
 
     box.addEventListener("click", function(){
         console.log("clicou")
