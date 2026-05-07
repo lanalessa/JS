@@ -1,0 +1,12 @@
+.caixa{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.escuro{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,89 @@
+body{
+    font-family: Arial;
+}
+
+/* EXERCÍCIO 1 */
+
+.caixa{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 5px;
+    background-color: white;
+}
+
+/* EXERCÍCIO 2 */
+
+.ativo{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+/* EXERCÍCIO 3 */
+
+.caixa{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+/* EXERCÍCIO 4 E 5 */
+
+.rosaBox{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.rosa{
+    background-color: pink;
+    color: deeppink;
+}
+
+/* EXERCÍCIO 6 E 7 */
+
+.destaqueBox{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.destaque{
+    background-color: lightgreen;
+    color: darkgreen;
+    border: 2px solid green;
+}
+
+/* EXERCÍCIO 8 */
+
+.card{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.cardAtivo{
+    background-color: black;
+    color: white;
+}
+
+/* EXERCÍCIO 9 */
+
+.menu{
+    list-style: none;
+    padding: 10px;
+    margin: 5px;
+    background-color: lightgray;
+    width: 100px;
+    cursor: pointer;
+}
+
+.menuAtivo{
+    background-color: black;
+    color: white;
+}
