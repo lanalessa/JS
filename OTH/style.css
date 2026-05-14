@@ -1,0 +1,70 @@
+/* CSS */
+* {
+    font-family:'Times New Roman', Times, serif;
+}
+body {
+    position: relative;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background-color: transparent;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url('img/one_tree_hill.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+#container {
+    background-color: #ffffffdc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin-top: 20px;
+    width: 60%;
+    height: 70%;
+}
+#respostas button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+#respostas button:hover {
+    background-color: #e0e0e0;
+}
+
+h1 {
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    font-size: 50px;
+    margin-top: 30px;
+}
+h2 {
+    color: #000000;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#imagem {
+    width: 500px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+}
