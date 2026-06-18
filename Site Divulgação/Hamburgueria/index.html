@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grill Master</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <img id="logo" src="img/HAMBURGUERIA - GRILL MASTER.png" alt="">
+        <button id="func" onclick="func()">Quero garantir meu lugar</button>
+        <button id="sobre" onclick="sobre()">Sobre o App</button>
+    </header>
+
+    <br>
+    <h1>BEM-VINDO À GRILL MASTER, ONDE CADA HAMBÚRGUER É UMA OBRA DE ARTE GRELHADA NA PERFEIÇÃO.</h1>
+    <br>
+
+    <img id="divulgacaoDia" src="img/dia.png" alt="">
+    <br><br><br><br>
+
+    <h2>CONHEÇA NOSSO CARDÁPIO</h2>
+    <br><br>
+
+    <section>
+        <div class="slider-row">
+            <div class="slider-left">
+                <div class="carrossel">
+                    <img src="img/L1.png" alt="" class="img ativa">
+                    <img src="img/L2.png" alt="" class="ft">
+                    <img src="img/L3.png" alt="" class="ft">
+                    <img src="img/L4.png" alt="" class="ft">
+                </div>
+            </div>
+            <aside class="slider-text">
+                <h3>Nossos Hambúrgueres Artesanais</h3>
+                <ul class="menu-list">
+                    <li>
+                        <strong style="margin:0">Grill Master King</strong><br>
+                        Blend artesanal de 180g grelhado na brasa, crosta de queijo cheddar derretido, tiras de bacon
+                        crocante, cebola caramelizada e maionese artesanal da casa no pão brioche macio.
+                    </li>
+                    <li>
+                        <strong>Crispy Chicken Grill</strong><br>
+                        Suculento peito de frango empanado super crocante, queijo prato derretido, alface americana
+                        fresh, rodelas de tomate caipira e molho tártaro especial no pão com gergelim.
+                    </li>
+                    <li>
+                        <strong>Smash Fire Duplo</strong><br>
+                        Dois blends smash de 90g prensados na chapa quente, duas camadas de queijo cheddar perfeitamente
+                        derretidas, picles artesanal e molho secreto Grill Master no pão brioche selado.
+                    </li>
+                    <li>
+                        <strong>Mestre Veggie</strong><br>
+                        Hambúrguer artesanal de grão-de-bico com ervas finas, queijo muçarela derretido, rúcula fresca,
+                        tomate seco e maionese de ervas no pão australiano.
+                    </li>
+                </ul>
+            </aside>
+        </div>
+
+        <hr style="border: 1px solid #e1cba3;"> <br><br>
+        <div class="slider-row">
+            <div class="slider-left">
+                <div class="carrossel2">
+                    <img src="img/B1.png" alt="" class="img ativa">
+                    <img src="img/B2.png" alt="" class="ft">
+                    <img src="img/B3.png" alt="" class="ft">
+                    <img src="img/B4.png" alt="" class="ft">
+                </div>
+            </div>
+            <aside class="slider-text">
+                <h3>Nossos Drinks e Bebidas</h3>
+                <ul class="menu-list">
+                    <li>
+                        <strong>Água de Coco Pura</strong><br>
+                        Água de coco 100% natural e super fresca, extraída diretamente do fruto e servida trincando de
+                        gelado para garantir o máximo de refrescância.
+                    </li>
+                    <li>
+                        <strong>Suco Citrus Fire</strong><br>
+                        Mistura refrescante de frutas tropicais selecionadas, batido na hora com ingredientes naturais e
+                        finalizado com um toque sutil de raspas de laranja tostada.
+                    </li>
+                    <li>
+                        <strong>Refrigerante Lata</strong><br>
+                        O acompanhamento clássico e indispensável para o seu lanche, servido na temperatura ideal e com
+                        aquela refrescância que todo mundo ama.
+                    </li>
+                    <li>
+                        <strong>Cerveja Artesanal Grill</strong><br>
+                        Cerveja artesanal selecionada pelo mestre da casa, com notas encorpadas que harmonizam
+                        perfeitamente com o sabor marcante do nosso hambúrguer na brasa.
+                    </li>
+                </ul>
+            </aside>
+        </div>
+    </section>
+
+    <br><br><br>
+
+    <!-- DUVIDAS -->
+
+    <section id="faq" class="section faq-section">
+        <div class="section-header">
+            <h2>Dúvidas frequentes</h2>
+            <p>Informações rápidas sobre o evento e as reservas.</p>
+        </div>
+        <div class="faq-list">
+            <details>
+                <summary>Qual é o horário de início do evento?</summary>
+                <p>O evento começa às 12h e segue durante toda a tarde com atrações e experiências gastronômicas.</p>
+            </details>
+            <details>
+                <summary>O estacionamento está incluso?</summary>
+                <p>Sim, os participantes terão acesso gratuito ao estacionamento durante o período do evento.</p>
+            </details>
+            <details open="">
+                <summary>Haverá música ao vivo?</summary>
+                <p>Sim, teremos apresentações ao vivo ao longo do dia para tornar a experiência ainda mais especial.</p>
+            </details>
+            <details>
+                <summary>Posso cancelar minha reserva?</summary>
+                <p>Sim, o cancelamento pode ser solicitado com antecedência entrando em contato pelos nossos canais de
+                    atendimento.</p>
+            </details>
+        </div>
+    </section>
+
+
+
+
+
+
+    <footer class="site-footer">
+        <div class="footer-row">
+            <div class="footer-brand">
+                <h2>Reserve já o seu lugar!</h2>
+                <p>R. Quinze de Novembro, 220 - Centro, Suzano</p>
+            </div>
+            <div class="footer-action">
+                <button class="footer-button" onclick="func()">Cadastrar</button>
+            </div>
+        </div>
+        <p class="footer-text">Venha experimentar o melhor do Grill Master: hambúrgueres artesanais, drinks especiais e
+            ambiente acolhedor.</p>
+        <p class="footer-copy">© Copyright 1972-2026 GRILL MASTER G.M.</p>
+    </footer>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

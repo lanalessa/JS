@@ -1,0 +1,10 @@
+.pergunta{ 
+    background-color: #adadad;
+    cursor: pointer;
+    margin: 10px 0; 
+}
+
+.resposta{
+    background-color: #d2d2d2;
+    display: none;
+}
